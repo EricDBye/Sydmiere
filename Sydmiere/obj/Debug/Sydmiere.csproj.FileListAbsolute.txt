@@ -1,6 +1,0 @@
-C:\Users\Eric\documents\visual studio 2013\Projects\Sydmiere\Sydmiere\bin\Sydmiere.dll.config
-C:\Users\Eric\documents\visual studio 2013\Projects\Sydmiere\Sydmiere\bin\Sydmiere.dll
-C:\Users\Eric\documents\visual studio 2013\Projects\Sydmiere\Sydmiere\bin\Sydmiere.pdb
-C:\Users\Eric\documents\visual studio 2013\Projects\Sydmiere\Sydmiere\obj\Debug\Sydmiere.csprojResolveAssemblyReference.cache
-C:\Users\Eric\documents\visual studio 2013\Projects\Sydmiere\Sydmiere\obj\Debug\Sydmiere.dll
-C:\Users\Eric\documents\visual studio 2013\Projects\Sydmiere\Sydmiere\obj\Debug\Sydmiere.pdb
