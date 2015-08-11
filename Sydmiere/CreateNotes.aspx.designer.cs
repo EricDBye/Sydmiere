@@ -10,24 +10,33 @@
 namespace Sydmiere {
     
     
-    public partial class Home {
+    public partial class CreateNotes {
         
         /// <summary>
-        /// calNotes control.
+        /// lblNotes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calNotes;
+        protected global::System.Web.UI.WebControls.Label lblNotes;
         
         /// <summary>
-        /// lnkCreateNotes control.
+        /// btnSaveNote control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkCreateNotes;
+        protected global::System.Web.UI.WebControls.Button btnSaveNote;
+        
+        /// <summary>
+        /// txtNotes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNotes;
     }
 }

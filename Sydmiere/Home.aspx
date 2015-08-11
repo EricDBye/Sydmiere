@@ -1,18 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Sydmiere.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Sydmiere.Home" MasterPageFile="Sydmiere.Master" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:Label runat="server">Notes</asp:Label>
-        <asp:TextBox runat="server" ID="txtNotes"></asp:TextBox>
-        <asp:Button runat ="server" onclick="btnSaveClick" Text="Save Note"/>
+<asp:Content id="Content1" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <div class="Body">
+        <asp:Calendar runat="server" ID="calNotes" OnDayRender="myDayRenderMethod">
+        </asp:Calendar>
     </div>
-    </form>
-</body>
-</html>
+    <div class="Body">
+        <asp:LinkButton runat="server" ID="lnkCreateNotes" OnClick="lnkCreateNotes_OnClick">Create Note</asp:LinkButton>
+    </div>
+</asp:Content>

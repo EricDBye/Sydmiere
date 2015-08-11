@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sydmiere.Master.cs" Inherits="Sydmiere.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link rel="stylesheet" type="text/css" href="Styles/Home.css" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MasterPage" runat="server">
+    <div class="HomeTop">
+        <div class="Top">
+            <asp:Label class="TopElements" runat="server" ID="lblUsername">Username</asp:Label>
+            <asp:TextBox class="TopElements" runat="server" ID="txtUsername"></asp:TextBox>
+            <asp:Label class="TopElements" runat="server" ID="lblPassword">Password</asp:Label>
+            <asp:TextBox class="TopElements" runat="server" ID="txtPassword" TextMode="Password"></asp:TextBox>
+            <asp:Button class="TopElements" runat="server" ID="btnLogin" text="Login" OnClick="btnLogin_OnClick"/>
+            <asp:LinkButton class="TopElements" runat="server" ID="lnkRegister" Text="Sign Up" OnClick="lnkRegister_OnClick" />
+            <asp:Label class="TopElements" runat="server" ID="lblAccount" />
+        </div>
+        <div class="Top">
+            <asp:Label class="TopElements" runat="server" ID="lblIncorrect" Visible="false">Incorrect Username/Password Combination</asp:Label>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
